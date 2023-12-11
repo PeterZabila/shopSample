@@ -1,0 +1,171 @@
+import img from '../assets/prod/1.jpeg';
+
+export const products = [
+    {
+        id: 1,
+        title: "classic suit",
+        desc: "classic suit for man",
+        price: 87,
+        img: '../assets/prod/1.jpeg',
+        img2: '../assets/prod/16.jpeg',
+        subCategory: "suit",
+        category: "man",
+        isNew: true
+    },
+    {
+        id: 13,
+        title: "jeans",
+        desc: "new jeans",
+        price: 12,
+        img: '../assets/prod/13.jpeg',
+        img2: '../assets/prod/19.jpeg',
+        subCategory: "suit",
+        category: "man",
+        isNew: false,
+        type: "normal"
+    },
+    {
+        id: 2,
+        title: "trendy jeans",
+        desc: "new collection trendyjeans",
+        price: 23,
+        img: '../assets/prod/3.jpeg',
+        img2: '../assets/prod/5.jpeg',
+        subCategory: "jeans",
+        category: "woman",
+        isNew: true,
+        type: "trending"
+    },
+    {
+        id: 3,
+        title: "hat",
+        desc: "best hat",
+        price: 13,
+        img: '../assets/prod/2.jpeg',
+        img2: '../assets/prod/10.jpeg',
+        subCategory: "hat",
+        category: "man",
+        isNew: true,
+        type: "normal"
+    },
+    {
+        id: 4,
+        title: "sweater",
+        desc: "new sweater",
+        price: 25,
+        img: '../assets/prod/21.jpeg',
+        img2: '../assets/prod/18.jpeg',
+        subCategory: "sweater",
+        category: "man",
+        isNew: true,
+        type: "normal"
+    },
+    {
+        id: 5,
+        title: "jeans",
+        desc: "new super jeans",
+        price: 15,
+        img: '../assets/prod/9.jpeg',
+        img2: '../assets/prod/11.jpeg',
+        subCategory: "jeans",
+        category: "woman",
+        isNew: true,
+        type: "trending"
+    },
+    {
+        id: 6,
+        title: "watch new",
+        desc: "new design wrist watch",
+        price: 12,
+        img: '../assets/prod/20.jpeg',
+        img2: '../assets/prod/27.jpeg',
+        subCategory: "watch",
+        category: "accessories",
+        isNew: false,
+        type: "featured"
+    },
+    {
+        id: 7,
+        title: "watch",
+        desc: "wrist watch",
+        price: 50,
+        img: '../assets/prod/26.jpeg',
+        img2: '../assets/prod/25.jpeg',
+        subCategory: "watch",
+        category: "man",
+        isNew: false,
+        type: "normal"
+    },
+    {
+        id: 8,
+        title: "black siut",
+        desc: "black clasic suit",
+        price: 12,
+        img: '../assets/prod/24.jpeg',
+        img2: '../assets/prod/31.jpeg',
+        subCategory: "suit",
+        category: "woman",
+        isNew: true,
+        type: "featured"
+    },
+    {
+        id: 9,
+        title: "black siut",
+        desc: "black clasic suit",
+        price: 95,
+        img: '../assets/prod/28.jpeg',
+        img2: '../assets/prod/23.jpeg',
+        subCategory: "suit",
+        category: "man",
+        isNew: false,
+        type: "featured"
+    },
+    {
+        id: 10,
+        title: "stylish jeans",
+        desc: "stylish jeans",
+        price: 23,
+        img: '../assets/prod/4.jpeg',
+        img2: '../assets/prod/12.jpeg',
+        subCategory: "jeans",
+        category: "man",
+        isNew: false,
+        type: "featured"
+    },
+    {
+        id: 11,
+        title: "sweater",
+        desc: "sweater for you",
+        price: 25,
+        img: '../assets/prod/1.jpeg',
+        img2: '../assets/prod/16.jpeg',
+        subCategory: "sweater",
+        category: "woman",
+        isNew: true,
+        type: "normal"
+    },
+    {
+        id: 12,
+        title: "blue jeans",
+        desc: "new blue jeans",
+        price: 10,
+        img: '../assets/prod/12.jpeg',
+        img2: '../assets/prod/9.jpeg',
+        subCategory: "jeans",
+        category: "man",
+        isNew: false,
+        type: "trending"
+    },
+    {
+        id: 14,
+        title: "nice hat",
+        desc: "new hat",
+        price: 123,
+        img: '../assets/prod/14.jpeg',
+        img2: '../assets/prod/2.jpeg',
+        subCategory: "2",
+        category: "woman",
+        isNew: true,
+        type: "trending"
+    }
+]
